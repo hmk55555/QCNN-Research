@@ -25,11 +25,8 @@ All Circuits Tested Accesible Below (Folders)
 * [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)>) - Gradient Free Optimizer Testing
 * [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing>) - Gradient Based Optimizer Testing (ReverseGradientEstimator)
 
-## Output
-The model returns the number it predicts to be in the image. Both models are multiclass, classifying 4 different digits.
-
-## Current Observations
-Gradient Free calculation using COBYLA, which was found to demonstrate highest performance among gradient-free optimizers for this problem, demonstrated a significantly lower performance compared to Gradient Based calculation (similar to what is expected in classical machine learning). However, the relative closeness of the final results (60% / 70%) on this complex problem indicated that there is potential to find better gradient-free methods to better traverse the Hilbert Space. It the pattern of increase divergence between model accuracies from the 2-class simpler scenario to the 4-class scenario continues, it could indicate that more complicated quantum machine learning architectures with thousands or millions of parameters would require gradient-based optimizers. This could be a significant bottleneck as gradient-calculation, even on quantum computers with very high coherence times, scale linearly with parameters: O(n).
+## Observations
+Gradient Free calculation using COBYLA, which was found to demonstrate highest performance among gradient-free optimizers for this problem, demonstrated a significantly lower performance compared to Gradient Based calculation (similar to what is expected in classical machine learning). If the pattern of increasing divergence between model accuracies from the 2-class simpler scenario to the 4-class scenario continues, it could indicate that more complicated quantum machine learning architectures with thousands or millions of parameters would require gradient-based optimizers. This could be a significant bottleneck as gradient calculation, even on quantum computers with very high coherence times, scale linearly with parameters: O(n). However, the final results (60% / 70%) on this complex problem indicated that there is potential to find gradient-free methods to better traverse the Hilbert Space.
 
 ## Future Aim / Next Steps
-As discussed, QNN performance can likely be increased by improving the complexity of the circuit. This might require letting the model train for a much longer period of time (multiple days) to be able to get a more effective accuracy. To improve QCNN performance, ways of encoding information more efficiently, rather than the 1 pixel: 1 qubit ratio, need to be used. Otherwise, limiting the number of epochs and expanding the utilized training dataset can be attempted. Therefore, more training time is needed for both models.
+--To Be Filled Later--
