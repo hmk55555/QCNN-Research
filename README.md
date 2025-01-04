@@ -16,14 +16,14 @@ to 4x4 image
 so that we can use 16 qubits to represent 1 image. The images are processed through the ZFeatureMap, which encodes classical data into a quantum representation that can then be processed by the quantum algorithm.
 
 ## Algorithms
-* [Gradient Based Optimizer](./GPU/V4 (FINAL TESTING)/Gradient Testing/Circuit1/4 Classes/4Qubits(One_Hot)_ADAM_256_95Epoch.ipynb) - Gradient Based Optimizer Test (Best Performing)
-* [Gradient Based Optimizer](./GPU/V4 (FINAL TESTING)/Circuit 1/Estimator 4 Classes Circuit 1 (256 Batch)/4Qubits(NoEndConv).ipynb) - Gradient Free Optimizer Test (Best Performing)
+* [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing/Circuit1/4 Classes/4Qubits(One_Hot)_ADAM_256_95Epoch.ipynb>) - Gradient Based Optimizer Test (Best Performing)
+* [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Circuit 1/Estimator 4 Classes Circuit 1 (256 Batch)/4Qubits(NoEndConv).ipynb>) - Gradient Free Optimizer Test (Best Performing)
 
 We use multiple circuits tested in the GPU File under the V4 (Final Testing) under different categories. Rest of directories are tests and represent the iterative work.
 
 All Circuits Tested Accesible Below (Folders)
-* [Gradient Free Optimizer](./GPU/V4 (FINAL TESTING)) - Gradient Free Optimizer Testing
-* [Gradient Based Optimizer](./GPU/V4 (FINAL TESTING)/Gradient Testing) - Gradient Based Optimizer Testing (ReverseGradientEstimator)
+* [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)>) - Gradient Free Optimizer Testing
+* [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing>) - Gradient Based Optimizer Testing (ReverseGradientEstimator)
 
 ## Output
 The model returns the number it predicts to be in the image. Both models are multiclass, classifying 4 different digits.
