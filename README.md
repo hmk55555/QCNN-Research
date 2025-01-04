@@ -1,6 +1,8 @@
 # Multiclass QCNN Research (Fully Quantum)
 Implementation of multi-class quantum convolutional neural network (without classical layers).
 
+### Paper Link (In Progress)
+
 ## Goal
 Implementing and comparing different quantum circuit architectures and analyzing current constraints in gradient calculation of quantum circuits.
 
@@ -16,8 +18,24 @@ to 4x4 image
 so that we can use 16 qubits to represent 1 image. The images are processed through the ZFeatureMap, which encodes classical data into a quantum representation that can then be processed by the quantum algorithm.
 
 ## Algorithms
-* [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing/Circuit1/4 Classes/4Qubits(One_Hot)_ADAM_256_95Epoch.ipynb>) - Gradient Based Optimizer Test (Best Performing)
-* [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Circuit 1/Estimator 4 Classes Circuit 1 (256 Batch)/4Qubits(NoEndConv).ipynb>) - Gradient Free Optimizer Test (Best Performing)
+[Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)/Circuit 1/Estimator 4 Classes Circuit 1 (256 Batch)/4Qubits(NoEndConv).ipynb>) - Gradient Free Optimizer Test (Best Performing)
+<table>
+  <tr>
+    <td><img src="images/GradientFree4ClassesAccuracy.png" alt="Gradient Free 4 Classes Accuracy" width="300" height="225"></td>
+    <td><img src="images/GradientFree4ClassesLoss.png" alt="Gradient Free 4 Classes Loss" width="300" height="225"></td>
+  </tr>
+</table>
+
+<br>
+
+[Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing/Circuit1/4 Classes/4Qubits(One_Hot)_ADAM_256_95Epoch.ipynb>) - Gradient Based Optimizer Test (Best Performing)
+<table>
+  <tr>
+    <td><img src="images/GradientImage4ClassesLoss.png" alt="Gradient Image 4 Classes Loss" width="300" height="225"></td>
+    <td><img src="images/GradientImage4Classes.png" alt="Gradient Image 4 Classes" width="300" height="225"></td>
+  </tr>
+</table>
+
 
 We use multiple circuits tested in the GPU File under the V4 (Final Testing) under different categories. Rest of directories are tests and represent the iterative work.
 
