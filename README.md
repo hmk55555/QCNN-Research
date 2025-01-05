@@ -1,5 +1,5 @@
 # Multiclass QCNN Research (Fully Quantum)
-Implementation of multi-class quantum convolutional neural network (without classical layers).
+Implementation of multi-class quantum convolutional neural network (without classical layers). I not only implement 4-class MNIST Digit Classification, but I also compare with implementations of 2-Class MNIST QCNN Classifier and different loss functions. I also test numerous gradient and gradient-free algorithms. Labels are on IPYNB Files.
 
 ### Paper Link (In Progress)
 
@@ -66,3 +66,7 @@ Gradient Free calculation using COBYLA, which was found to demonstrate highest p
 
 ## Future Aim / Next Steps
 --To Be Filled Later--
+
+## Works Cited
+Modified from (https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html)
+To Be Filled Out Soon.
