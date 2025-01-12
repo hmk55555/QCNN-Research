@@ -1,6 +1,10 @@
 # Multiclass QCNN Research (Fully Quantum)
 Implementation of multi-class quantum convolutional neural network (without classical layers). I not only implement 4-class MNIST Digit Classification, but I also compare with implementations of 2-Class MNIST QCNN Classifier and different loss functions. I also test numerous gradient and gradient-free algorithms. Labels are on IPYNB Files.
+
 Quick Navigation to Best Version:
+* [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing/Circuit1/4 Classes/4Qubits(One_Hot)_ADAM_256_95Epoch.ipynb>) - Gradient Based Optimizer Test (Best Performing)
+* [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)/Circuit 1/Estimator 4 Classes Circuit 1 (256 Batch)/4Qubits(NoEndConv).ipynb>) - Gradient Free Optimizer Test (Best Performing)
+
 We use multiple circuits tested in the GPU File under the V4 (Final Testing) under different categories. Rest of directories are tests and represent the iterative work.
 All Circuits Tested Accesible Below (Folders)
 * [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)>) - Gradient Free Optimizer Testing
