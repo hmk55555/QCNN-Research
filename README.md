@@ -67,8 +67,9 @@ to 4x4 image so that we can use 16 qubits to represent 1 image. The images are p
 </table>
 
 ## Future Aim / Next Steps
---To Be Filled Later--
+Experimenting with dense encoding (check 8.1), testing/developing new optimizers, architectural changes, further analysis of bottleneck in gradient-free optimizers, and the effect of noise on our models.
 
 ## Works Cited
-Modified from (https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html)
-To Be Filled Out Soon.
+1. Cong, I., Choi, S., & Lukin, M. D. (2018, October 9). [1810.03787] Quantum Convolutional Neural Networks. arXiv. Retrieved February 14, 2025, from https://arxiv.org/abs/1810.03787
+2. IBM Quantum. (n.d.). The Quantum Convolution Neural Network - Qiskit Machine Learning 0.8.2. GitHub Pages. Retrieved February 14, 2025, from https://qiskit-community.github.io/qiskit-machine-learning/tutorials/11_quantum_convolutional_neural_networks.html
+3. Vatan, F., & Williams, C. (2024, November 26). quant-ph/0308006v3 25 Mar 2004. arXiv. Retrieved February 14, 2025, from https://arxiv.org/pdf/quant-ph/0308006
