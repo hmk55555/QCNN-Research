@@ -10,6 +10,9 @@ All Circuits Tested Accesible Below (Folders)
 * [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)>) - Gradient Free Optimizer Testing
 * [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing>) - Gradient Based Optimizer Testing (ReverseGradientEstimator)
 ### Paper Link (In Progress)
+Note: This is a draft paper and has not yet been properly reviewed or completed.
+
+[QCNN Paper PDF](<./QCNN Research Project - Fourth Draft.pdf>)
 
 ## Goal
 Implementing and comparing different quantum circuit architectures and analyzing current constraints in gradient calculation of quantum circuits.
@@ -62,9 +65,6 @@ to 4x4 image so that we can use 16 qubits to represent 1 image. The images are p
     <td><img src="images/output.png" alt="Sample Output (Best Performance Enhanced Circuit)" width="600" height="650"></td>
   </tr>
 </table>
-
-## Observations
-[Not complete or updated. Just some preliminary findings and results summary.] Gradient Free calculation using COBYLA, which was found to demonstrate highest performance among gradient-free optimizers for this problem, demonstrated a significantly lower performance compared to Gradient Based calculation (similar to what is expected in classical machine learning). If the pattern of increasing divergence between model accuracies from the 2-class simpler scenario to the 4-class scenario continues, it could indicate that more complicated quantum machine learning architectures with thousands or millions of parameters would require gradient-based optimizers. This could be a significant bottleneck as gradient calculation, even on quantum computers with very high coherence times, scale linearly with parameters: O(n). However, the final results (60% / 70%) on this complex problem indicated that there is potential to find gradient-free methods to better traverse the Hilbert Space.
 
 ## Future Aim / Next Steps
 --To Be Filled Later--
