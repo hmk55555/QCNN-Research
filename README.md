@@ -40,7 +40,7 @@ to 4x4 image so that we can use 16 qubits to represent 1 image. The images are p
 </table>
 
 
-## Algorithms
+## Sample Algorithms
 [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)/Circuit 1/Estimator 4 Classes Circuit 1 (256 Batch)/4Qubits(NoEndConv).ipynb>) - Gradient Free Optimizer Test (Best Performing)
 <table>
   <tr>
