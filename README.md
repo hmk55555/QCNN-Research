@@ -10,7 +10,7 @@ All Circuits Tested Accesible Below (Folders)
 * [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)>) - Gradient Free Optimizer Testing
 * [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing>) - Gradient Based Optimizer Testing (ReverseGradientEstimator)
 ### Paper Link (In Progress)
-Note: This is a draft paper and has not yet been properly reviewed or completed.
+Note: This is a draft paper and has not yet been properly reviewed or completed. Edits are in progress and will be updated here.
 
 [QCNN Paper PDF](<./QCNN Research Project - Fourth Draft.pdf>)
 
