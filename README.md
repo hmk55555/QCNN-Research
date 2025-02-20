@@ -35,7 +35,7 @@ to 4x4 image so that we can use 16 qubits to represent 1 image. The images are p
 ## Sample Circuit Used
 <table>
   <tr>
-    <td><img src="images/circuit.png" alt="Sample Circuit Decomposed" width="1000" height="1700"></td>
+    <td><img src="images/circuit.png" alt="Sample Circuit Decomposed" width="1200" height="1700"></td>
   </tr>
 </table>
 
@@ -44,8 +44,8 @@ to 4x4 image so that we can use 16 qubits to represent 1 image. The images are p
 [Gradient Free Optimizer](<GPU/V4 (FINAL TESTING)/Circuit 1/Estimator 4 Classes Circuit 1 (256 Batch)/4Qubits(NoEndConv).ipynb>) - Gradient Free Optimizer Test (Best Performing)
 <table>
   <tr>
-    <td><img src="images/GradientFree4ClassesAccuracy.png" alt="Gradient Free 4 Classes Accuracy" width="300" height="225"></td>
-    <td><img src="images/GradientFree4ClassesLoss.png" alt="Gradient Free 4 Classes Loss" width="300" height="225"></td>
+    <td><img src="images/GradientFree4ClassesAccuracy.png" alt="Gradient Free 4 Classes Accuracy" width="310" height="225"></td>
+    <td><img src="images/GradientFree4ClassesLoss.png" alt="Gradient Free 4 Classes Loss" width="310" height="225"></td>
   </tr>
 </table>
 
@@ -54,8 +54,8 @@ to 4x4 image so that we can use 16 qubits to represent 1 image. The images are p
 [Gradient Based Optimizer](<GPU/V4 (FINAL TESTING)/Gradient Testing/Circuit1/4 Classes/4Qubits(One_Hot)_ADAM_256_95Epoch.ipynb>) - Gradient Based Optimizer Test (Best Performing)
 <table>
   <tr>
-    <td><img src="images/GradientImage4ClassesAccuracy.png" alt="Gradient Image 4 Classes Loss" width="300" height="225"></td>
-    <td><img src="images/GradientImage4ClassesLoss.png" alt="Gradient Image 4 Classes" width="300" height="225"></td>
+    <td><img src="images/GradientImage4ClassesAccuracy.png" alt="Gradient Image 4 Classes Loss" width="310" height="225"></td>
+    <td><img src="images/GradientImage4ClassesLoss.png" alt="Gradient Image 4 Classes" width="310" height="225"></td>
   </tr>
 </table>
 
