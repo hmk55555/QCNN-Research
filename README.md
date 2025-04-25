@@ -15,7 +15,6 @@ All Circuits Tested Accessible Below (Folders)
 ### Paper Link (Draft)
 Note: This is a draft paper and has not yet been properly reviewed or completed. Edits are in progress and will be updated here.
 
-[QCNN Paper PDF](<./QCNN Research Project - Fourth Draft.pdf>)
 
 ## Goal
 Implementing and comparing different quantum circuit architectures and analyzing current constraints in gradient calculation of quantum circuits.
